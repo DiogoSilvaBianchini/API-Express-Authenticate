@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.13.2",
+    "nodemon": "^2.0.12",
+    "pug": "^3.0.2"
+  },
+  "name": "authenticate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

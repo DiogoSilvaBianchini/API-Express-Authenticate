@@ -1,0 +1,36 @@
+@keyframes move_left{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes move_left_out{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+@keyframes scale_plus{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+
+.move_left{
+    animation: move_left 1s forwards normal;
+}
+.move_left_out{
+    animation: move_left_out 500ms forwards normal;
+}
+.scale_plus{
+    animation: scale_plus 1s backwards normal;
+}

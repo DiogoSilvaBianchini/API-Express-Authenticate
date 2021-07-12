@@ -1,0 +1,46 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="css/crud.css")
+        link(rel="stylesheet", href="css/header.css")
+        link(rel="stylesheet", href="css/footer.css")
+        link(rel="stylesheet", href="css/all.min.css")
+        link(rel="stylesheet", href="css/animations.css")
+        title User Area
+    body 
+        header 
+                div(class="header_itens")
+                    a(href="/")="DiogoBianchini"
+                    nav(class="block") 
+                        ul 
+                            li
+                                a(href="/")="Home" 
+                            li 
+                                a(href="/sobre")="Sobre"
+                            li 
+                                a(href="Jobs")="Jobs" 
+                            li 
+                                a(href="/login" class="far fa-user-circle") 
+                    nav(class="block_burg")
+                        span(class="fas fa-bars" id="menu") 
+                
+                 
+                aside(class="block_burg block" id="aside_menu") 
+                    ul 
+                        li
+                            a(href="/")="Home" 
+                        li 
+                            a(href="/sobre")="Sobre"
+                        li 
+                            a(href="Jobs")="Jobs"
+                        li 
+                            a(href="/login" class="far fa-user-circle")
+                script(src="js/header.js")
+        section 
+            .section_container 
+                .info 
+                    h2="Bem-Vindo " +name 
+                    p=email

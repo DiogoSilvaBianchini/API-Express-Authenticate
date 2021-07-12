@@ -1,0 +1,54 @@
+doctype html
+html(lang="pt-br")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Home
+        link(rel="stylesheet", href="css/home.css")
+        link(rel="stylesheet", href="css/header.css")
+        link(rel="stylesheet", href="css/footer.css")
+        link(rel="stylesheet", href="css/all.min.css")
+        link(rel="stylesheet", href="css/animations.css")
+    body 
+        div(class="container")
+            header 
+                div(class="header_itens")
+                    a(href="/")="DiogoBianchini"
+                    nav(class="block") 
+                        ul 
+                            li
+                                a(href="/")="Home" 
+                            li 
+                                a(href="/sobre")="Sobre"
+                            li 
+                                a(href="Jobs")="Jobs" 
+                            li 
+                                a(href="/login" class="far fa-user-circle") 
+                    nav(class="block_burg")
+                        span(class="fas fa-bars" id="menu")
+                aside(class="block_burg block" id="aside_menu") 
+                    ul 
+                        li
+                            a(href="/")="Home" 
+                        li 
+                            a(href="/sobre")="Sobre"
+                        li 
+                            a(href="Jobs")="Jobs" 
+                script(src="js/header.js")
+            section 
+                div(class="section_container")
+                    nav 
+                        ul 
+                            a(href="/" ) 
+                                li(class="info") 
+                                    span(class="fas fa-info-circle")
+                                    p="Todas as minhas habilidades"
+                            a(href="/")
+                                li(class="jobs") 
+                                    span(class="fas fa-briefcase")
+                                    p="Alguns dos meus trabalhos"
+            footer 
+                div(class="footer_container")
+                    <h6>&copy Diogo Bianchini</h6>
+                    span(class="fab fa-instagram")
